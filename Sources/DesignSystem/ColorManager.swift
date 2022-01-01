@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum Color: String, CaseIterable {
+public enum Color: String, CaseIterable {
     //Base Colors
     case primary = "Primary"
     case error = "Error"
