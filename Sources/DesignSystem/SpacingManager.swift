@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 public enum Spacing: Float {
-    public case small = 4
-    public case medium = 8
-    public case large = 16
-    public case superLarge = 24
+    case small = 4
+    case medium = 8
+    case large = 16
+    case superLarge = 24
 
     public var name: Float {
         return self.rawValue
